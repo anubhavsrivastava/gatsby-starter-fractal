@@ -9,6 +9,7 @@ import screen from '../assets/images/screen.png';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
+import { Link } from 'gatsby';
 
 const IndexPage = () => (
   <Layout>
@@ -148,26 +149,14 @@ const IndexPage = () => (
 
     <section id="three" className="wrapper style2 special">
       <header className="major">
-        <h2>Magna leo sapien gravida</h2>
-        <p>
-          Gravida at leo elementum elit fusce accumsan dui libero, quis vehicula
-          <br />
-          lectus ultricies eu. In convallis amet leo sapien iaculis efficitur.
-        </p>
+        <h2>Elements Page</h2>
+        <p>This starter is included with Elements demo for the starter</p>
       </header>
       <ul className="actions special">
         <li>
-          <a
-            href="https://github.com/anubhavsrivastava/gatsby-starter-fractal/archive/master.zip"
-            className="button primary icon fa-download"
-          >
-            Download Starter
-          </a>
-        </li>
-        <li>
-          <a href="/#" className="button">
-            Learn More
-          </a>
+          <Link to="/Elements" className="button primary icon fa-plus">
+            Check Elements
+          </Link>
         </li>
       </ul>
     </section>
