@@ -141,7 +141,7 @@
 		border-left-width: (_size(border-width) * 4);
 		font-style: italic;
 		margin: 0 0 _size(element-margin) 0;
-		padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4) _size(element-margin);
+		padding: (_size(element-margin) * 0.25) 0 (_size(element-margin) * 0.25) _size(element-margin);
 	}
 
 	code {
